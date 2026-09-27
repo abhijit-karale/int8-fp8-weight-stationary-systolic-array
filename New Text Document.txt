@@ -1,0 +1,23 @@
+# Role & Operational Task
+Act as a Principal AI Hardware Architect and Verification Lead. Generate a complete, production-grade, standalone codebase and verification suite for the project below with zero placeholders or pseudocode.
+
+## 1. Candidate Context
+- Candidate: Abhijit Karale (Deep understanding of datapath pipelining, low-power toggle reduction, and C/Python-to-hardware co-simulation).
+- Target Tech Node & Clock: SkyWater 130nm @ 200 MHz.
+
+## 2. Project Directive: INT8/FP8 Weight-Stationary Systolic Array AI Accelerator
+- Focus: Tensor compute datapath, low-power MAC arrays, pipelined matrix multiplication.
+- Key Specifications:
+  * 8x8 Processing Element (PE) 2D mesh operating in Weight-Stationary mode.
+  * Dual-precision support: Configurable for INT8 integer matrix math and FP8 (E4M3/E5M2) floating-point calculations.
+  * Pipelined accumulation registers with ReLU and saturation activation units.
+  * Double-buffered input/weight register banks for continuous computation without load bubbles.
+
+## 3. Mandatory Deliverables
+1. Microarchitectural Spec: Complete 2D array schematic (ASCII), individual PE microarchitecture, and data skewing/alignment buffers.
+2. Synthesizable RTL (`rtl/`): Full SystemVerilog implementation of PE cell, MAC logic (INT8/FP8), accumulator tree, and streaming feeder FIFOs.
+3. Formal Verification (`tb/formal/`): SVA assertions verifying weight loading isolation, boundary condition overflows, and calculation latency validity.
+4. Layered UVM 1.2 Suite with DPI-C (`tb/uvm/`): UVM testbench integrated via DPI-C with a Python/C++ NumPy golden model for matrix verification.
+5. Cycle-Accurate Waveform Guide: ASCII trace demonstrating weight preload followed by diagonal input streaming and product accumulation.
+6. Synthesis Setup (`syn/`): SDC constraints file, clock-gating insertion directives, and Yosys synthesis script.
+7. Repo Blueprint: File layout, `Makefile` with DPI-C build rules, and production `README.md`.
