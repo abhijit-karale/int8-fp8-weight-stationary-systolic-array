@@ -1,0 +1,37 @@
+[options]
+mode bmc
+depth 30
+
+[engines]
+smtbmc boolector
+
+[script]
+read -formal systolic_pkg.sv
+read -formal pe_int8_mac.sv
+read -formal pe_fp8_mac.sv
+read -formal mac_unit.sv
+read -formal pe.sv
+read -formal skew_buffer.sv
+read -formal deskew_buffer.sv
+read -formal activation_unit.sv
+read -formal weight_loader.sv
+read -formal systolic_array_top.sv
+read -formal sva_pe_checker.sv
+read -formal sva_systolic_top.sv
+read -formal formal_top.sv
+prep -top formal_top
+
+[files]
+../../rtl/systolic_pkg.sv
+../../rtl/pe_int8_mac.sv
+../../rtl/pe_fp8_mac.sv
+../../rtl/mac_unit.sv
+../../rtl/pe.sv
+../../rtl/skew_buffer.sv
+../../rtl/deskew_buffer.sv
+../../rtl/activation_unit.sv
+../../rtl/weight_loader.sv
+../../rtl/systolic_array_top.sv
+sva_pe_checker.sv
+sva_systolic_top.sv
+formal_top.sv

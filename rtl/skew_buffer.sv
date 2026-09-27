@@ -18,7 +18,7 @@ module skew_buffer
   
   // Streaming Activation Input (Parallel 8 rows)
   input  logic                           valid_in,
-  input  logic [ARRAY_ROWS-1:0][7:0]     data_in,
+  input  wire logic [ARRAY_ROWS-1:0][7:0]     data_in,
   output logic                           ready_out,
   
   // Skewed Activation Outputs to PE Array

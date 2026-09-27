@@ -19,7 +19,7 @@ module deskew_buffer
   
   // Skewed Partial-Sum Inputs emerging from Array bottom (Row 7)
   input  logic [ARRAY_COLS-1:0]          valid_in,
-  input  logic [ARRAY_COLS-1:0][31:0]    data_in,
+  input  wire logic [ARRAY_COLS-1:0][31:0]    data_in,
   
   // Deskewed Synchronized Vector Output
   output logic                           vector_valid_out,

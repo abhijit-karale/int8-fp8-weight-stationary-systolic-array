@@ -7,4 +7,327 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/Users/abhij/Downloads/SOC/INT8FP8 Weight Stationary Systolic Array AI Accelerator
+Z0 dC:/Users/abhij/Downloads/SOC/INT8FP8 Weight Stationary Systolic Array AI Accelerator
+vactivation_unit
+Z1 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z2 DXx4 work 12 systolic_pkg 0 22 eQzNo@c:aMoa]MmIXoSS93
+Z3 !s110 1790478052
+!i10b 1
+!s100 lK`@KZDFk@>?7B[HLQVVm2
+IDKK59z`lKnc_8I1IEmZl52
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 activation_unit_sv_unit
+S1
+R0
+w1790476096
+8rtl/activation_unit.sv
+Frtl/activation_unit.sv
+Z5 L0 12
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1790478052.000000
+!s107 tb/formal/formal_top.sv|tb/formal/sva_systolic_top.sv|tb/formal/sva_pe_checker.sv|rtl/systolic_array_top.sv|rtl/weight_loader.sv|rtl/activation_unit.sv|rtl/deskew_buffer.sv|rtl/skew_buffer.sv|rtl/pe.sv|rtl/mac_unit.sv|rtl/pe_fp8_mac.sv|rtl/pe_int8_mac.sv|rtl/systolic_pkg.sv|
+Z8 !s90 -sv|-timescale|1ns/1ps|rtl/systolic_pkg.sv|rtl/pe_int8_mac.sv|rtl/pe_fp8_mac.sv|rtl/mac_unit.sv|rtl/pe.sv|rtl/skew_buffer.sv|rtl/deskew_buffer.sv|rtl/activation_unit.sv|rtl/weight_loader.sv|rtl/systolic_array_top.sv|tb/formal/sva_pe_checker.sv|tb/formal/sva_systolic_top.sv|tb/formal/formal_top.sv|
+!i113 0
+Z9 o-sv -timescale 1ns/1ps -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vdeskew_buffer
+R1
+R2
+R3
+!i10b 1
+!s100 fFZzI4z_5o1KP<_XhOFcO2
+IKL=K5>e6WSA;9BTN8G3]e3
+R4
+!s105 deskew_buffer_sv_unit
+S1
+R0
+w1790476261
+8rtl/deskew_buffer.sv
+Frtl/deskew_buffer.sv
+Z11 L0 13
+R6
+r1
+!s85 0
+31
+R7
+Z12 !s107 tb/formal/formal_top.sv|tb/formal/sva_systolic_top.sv|tb/formal/sva_pe_checker.sv|rtl/systolic_array_top.sv|rtl/weight_loader.sv|rtl/activation_unit.sv|rtl/deskew_buffer.sv|rtl/skew_buffer.sv|rtl/pe.sv|rtl/mac_unit.sv|rtl/pe_fp8_mac.sv|rtl/pe_int8_mac.sv|rtl/systolic_pkg.sv|
+R8
+!i113 0
+R9
+R10
+vformal_top
+R1
+R2
+R3
+!i10b 1
+!s100 6^:c]_gVL<JRflPQNMB;d1
+IYhW`GQ;<V3JT3BFd66Pz00
+R4
+!s105 formal_top_sv_unit
+S1
+R0
+w1790477984
+8tb/formal/formal_top.sv
+Ftb/formal/formal_top.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vmac_unit
+R1
+R2
+R3
+!i10b 1
+!s100 `J^l9J8<PAbULNMDInzi13
+IQl5UHQmH;_f@n:@6@l7^22
+R4
+!s105 mac_unit_sv_unit
+S1
+R0
+w1790475978
+8rtl/mac_unit.sv
+Frtl/mac_unit.sv
+R11
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vpe
+R1
+R2
+R3
+!i10b 1
+!s100 9WHi78g@@3ZJ2]o58Wm;S0
+IV764<?V`nO0_YT_e>zKbm0
+R4
+!s105 pe_sv_unit
+S1
+R0
+w1790476007
+8rtl/pe.sv
+Frtl/pe.sv
+R11
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vpe_fp8_mac
+R1
+R2
+R3
+!i10b 1
+!s100 idzSUblA6V7DGB3GcnzGA2
+I95BPD=CZM<YmfW_RZ5ncA3
+R4
+!s105 pe_fp8_mac_sv_unit
+S1
+R0
+w1790475962
+8rtl/pe_fp8_mac.sv
+Frtl/pe_fp8_mac.sv
+R11
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vpe_int8_mac
+R1
+R2
+R3
+!i10b 1
+!s100 L?H<Y_ob_W9jmVK4UcWfo2
+ICh:Hjk5jg[A`G;7HCCEa>3
+R4
+!s105 pe_int8_mac_sv_unit
+S1
+R0
+w1790475932
+8rtl/pe_int8_mac.sv
+Frtl/pe_int8_mac.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vskew_buffer
+R1
+R2
+R3
+!i10b 1
+!s100 Zf7D;PWbNn[nUg0koLz8N2
+IBzAHZ@@P^1cP`gG[6AG0X3
+R4
+!s105 skew_buffer_sv_unit
+S1
+R0
+w1790476231
+8rtl/skew_buffer.sv
+Frtl/skew_buffer.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vsva_pe_checker
+R1
+R2
+R3
+!i10b 1
+!s100 `c;869GoZD^6gGR0iCXaW0
+IE`aUHL>:XM5OE[RR699Fe0
+R4
+!s105 sva_pe_checker_sv_unit
+S1
+R0
+w1790477951
+8tb/formal/sva_pe_checker.sv
+Ftb/formal/sva_pe_checker.sv
+R11
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vsva_systolic_top
+R1
+R2
+R3
+!i10b 1
+!s100 R@IhQ^;b<8?ZXM8mnjT:R2
+ILJRGTF3C7L>aRACoL]eOB3
+R4
+!s105 sva_systolic_top_sv_unit
+S1
+R0
+w1790477966
+8tb/formal/sva_systolic_top.sv
+Ftb/formal/sva_systolic_top.sv
+R11
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vsystolic_array_top
+R1
+R2
+R3
+!i10b 1
+!s100 eeaNbB=[N:2ZVR]NO^EhF2
+I40JmXD8V:b5@:do1aiNTf3
+R4
+!s105 systolic_array_top_sv_unit
+S1
+R0
+w1790476274
+8rtl/systolic_array_top.sv
+Frtl/systolic_array_top.sv
+L0 14
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+Xsystolic_pkg
+R1
+R3
+!i10b 1
+!s100 WPFl7_N_c@>?2e^1P0ZC80
+IeQzNo@c:aMoa]MmIXoSS93
+VeQzNo@c:aMoa]MmIXoSS93
+S1
+R0
+w1790475913
+8rtl/systolic_pkg.sv
+Frtl/systolic_pkg.sv
+R11
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vweight_loader
+R1
+R2
+R3
+!i10b 1
+!s100 7<jg^KL^G3:CE]^gA@^Nb0
+IAjQC>H^;TMklQDdW^4n0E1
+R4
+!s105 weight_loader_sv_unit
+S1
+R0
+w1790476140
+8rtl/weight_loader.sv
+Frtl/weight_loader.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
