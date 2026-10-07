@@ -11,7 +11,7 @@ Z0 dC:/Users/abhij/Downloads/SOC/INT8FP8 Weight Stationary Systolic Array AI Acc
 vactivation_unit
 Z1 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
 Z2 DXx4 work 12 systolic_pkg 0 22 eQzNo@c:aMoa]MmIXoSS93
-Z3 !s110 1790478052
+Z3 !s110 1790478957
 !i10b 1
 !s100 lK`@KZDFk@>?7B[HLQVVm2
 IDKK59z`lKnc_8I1IEmZl52
@@ -27,9 +27,9 @@ Z6 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z7 !s108 1790478052.000000
-!s107 tb/formal/formal_top.sv|tb/formal/sva_systolic_top.sv|tb/formal/sva_pe_checker.sv|rtl/systolic_array_top.sv|rtl/weight_loader.sv|rtl/activation_unit.sv|rtl/deskew_buffer.sv|rtl/skew_buffer.sv|rtl/pe.sv|rtl/mac_unit.sv|rtl/pe_fp8_mac.sv|rtl/pe_int8_mac.sv|rtl/systolic_pkg.sv|
-Z8 !s90 -sv|-timescale|1ns/1ps|rtl/systolic_pkg.sv|rtl/pe_int8_mac.sv|rtl/pe_fp8_mac.sv|rtl/mac_unit.sv|rtl/pe.sv|rtl/skew_buffer.sv|rtl/deskew_buffer.sv|rtl/activation_unit.sv|rtl/weight_loader.sv|rtl/systolic_array_top.sv|tb/formal/sva_pe_checker.sv|tb/formal/sva_systolic_top.sv|tb/formal/formal_top.sv|
+Z7 !s108 1790478957.000000
+!s107 tb/standalone_tb.sv|rtl/systolic_array_top.sv|rtl/weight_loader.sv|rtl/activation_unit.sv|rtl/deskew_buffer.sv|rtl/skew_buffer.sv|rtl/pe.sv|rtl/mac_unit.sv|rtl/pe_fp8_mac.sv|rtl/pe_int8_mac.sv|rtl/systolic_pkg.sv|
+Z8 !s90 -sv|-timescale|1ns/1ps|rtl/systolic_pkg.sv|rtl/pe_int8_mac.sv|rtl/pe_fp8_mac.sv|rtl/mac_unit.sv|rtl/pe.sv|rtl/skew_buffer.sv|rtl/deskew_buffer.sv|rtl/activation_unit.sv|rtl/weight_loader.sv|rtl/systolic_array_top.sv|tb/standalone_tb.sv|
 !i113 0
 Z9 o-sv -timescale 1ns/1ps -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 Z10 tCvgOpt 0
@@ -53,7 +53,7 @@ r1
 !s85 0
 31
 R7
-Z12 !s107 tb/formal/formal_top.sv|tb/formal/sva_systolic_top.sv|tb/formal/sva_pe_checker.sv|rtl/systolic_array_top.sv|rtl/weight_loader.sv|rtl/activation_unit.sv|rtl/deskew_buffer.sv|rtl/skew_buffer.sv|rtl/pe.sv|rtl/mac_unit.sv|rtl/pe_fp8_mac.sv|rtl/pe_int8_mac.sv|rtl/systolic_pkg.sv|
+Z12 !s107 tb/standalone_tb.sv|rtl/systolic_array_top.sv|rtl/weight_loader.sv|rtl/activation_unit.sv|rtl/deskew_buffer.sv|rtl/skew_buffer.sv|rtl/pe.sv|rtl/mac_unit.sv|rtl/pe_fp8_mac.sv|rtl/pe_int8_mac.sv|rtl/systolic_pkg.sv|
 R8
 !i113 0
 R9
@@ -61,7 +61,7 @@ R10
 vformal_top
 R1
 R2
-R3
+Z13 !s110 1790478052
 !i10b 1
 !s100 6^:c]_gVL<JRflPQNMB;d1
 IYhW`GQ;<V3JT3BFd66Pz00
@@ -77,9 +77,9 @@ R6
 r1
 !s85 0
 31
-R7
-R12
-R8
+Z14 !s108 1790478052.000000
+Z15 !s107 tb/formal/formal_top.sv|tb/formal/sva_systolic_top.sv|tb/formal/sva_pe_checker.sv|rtl/systolic_array_top.sv|rtl/weight_loader.sv|rtl/activation_unit.sv|rtl/deskew_buffer.sv|rtl/skew_buffer.sv|rtl/pe.sv|rtl/mac_unit.sv|rtl/pe_fp8_mac.sv|rtl/pe_int8_mac.sv|rtl/systolic_pkg.sv|
+Z16 !s90 -sv|-timescale|1ns/1ps|rtl/systolic_pkg.sv|rtl/pe_int8_mac.sv|rtl/pe_fp8_mac.sv|rtl/mac_unit.sv|rtl/pe.sv|rtl/skew_buffer.sv|rtl/deskew_buffer.sv|rtl/activation_unit.sv|rtl/weight_loader.sv|rtl/systolic_array_top.sv|tb/formal/sva_pe_checker.sv|tb/formal/sva_systolic_top.sv|tb/formal/formal_top.sv|
 !i113 0
 R9
 R10
@@ -208,10 +208,35 @@ R8
 !i113 0
 R9
 R10
-vsva_pe_checker
+vstandalone_tb
 R1
 R2
 R3
+!i10b 1
+!s100 F@=^aLYThTG5fVVFH[clU1
+Il08PcDzW[;C?P5c<KOB5E3
+R4
+!s105 standalone_tb_sv_unit
+S1
+R0
+w1790478848
+8tb/standalone_tb.sv
+Ftb/standalone_tb.sv
+R11
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vsva_pe_checker
+R1
+R2
+R13
 !i10b 1
 !s100 `c;869GoZD^6gGR0iCXaW0
 IE`aUHL>:XM5OE[RR699Fe0
@@ -227,16 +252,16 @@ R6
 r1
 !s85 0
 31
-R7
-R12
-R8
+R14
+R15
+R16
 !i113 0
 R9
 R10
 vsva_systolic_top
 R1
 R2
-R3
+R13
 !i10b 1
 !s100 R@IhQ^;b<8?ZXM8mnjT:R2
 ILJRGTF3C7L>aRACoL]eOB3
@@ -252,9 +277,9 @@ R6
 r1
 !s85 0
 31
-R7
-R12
-R8
+R14
+R15
+R16
 !i113 0
 R9
 R10
